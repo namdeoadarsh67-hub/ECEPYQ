@@ -433,12 +433,13 @@ const YEARS = [2026, 2025, 2024, 2023,];
 function blankYears(){ const o = {}; YEARS.forEach(y => o[y] = null); return o; }
 
 const PYQ_DATA = {
-  1: { subjects: {
+   1: { subjects: {
     "Engineering Mathematics I": { code:"MA101", icon:"sigma", papers:blankYears() },
-    "Engineering Chemistry": { code:"CH101", icon:"flask", papers:blankYears() },
-    "Basic Mechanical Engineering": { code:"ME103", icon:"wrench", papers:blankYears() }
-    "Basic Electronics Engineering": { code:"EE101", icon:"bolt", papers:blankYears() },
-    "Technical English": { code:"HS101", icon:"book", papers:blankYears() },
+    "Engineering Physics": { code:"PH101", icon:"atom", papers:blankYears() },
+    "Basic Electrical & Electronics Engineering": { code:"EE101", icon:"bolt", papers:blankYears() },
+    "Engineering Graphics & Design": { code:"ME101", icon:"pencil", papers:blankYears() },
+    "Communicative English": { code:"HS101", icon:"book", papers:blankYears() },
+    "Workshop & Manufacturing Practices": { code:"ME102", icon:"wrench", papers:blankYears() }
   }},
   2: { subjects: {
     "Engineering Physics": { code:"PH101", icon:"atom", papers:blankYears() },
